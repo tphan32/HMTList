@@ -1,2 +1,3 @@
 # HMTList
 A study case on List with Head, Mid, and Tail references in Java.
+While I was watching a java lecture,  I wondered why we have a doubly-linked list with a head and a tail, but not a list with head, mid, and tail. I decided to implement an HMTList. The time complexity for insert is the same, so I intended to improve the search algorithm. At first, the mid of HMTList didn't help much. I.e the search algorithm was faster for some node in the list when using the mid node, but it also was slow for others. In general, there was no improvement. Therefore, I tried to apply some machine learning to the search algorithm. Based on the user's behavior, the algorithm with mid node will find a node in the list faster than the regular algorithm. 
