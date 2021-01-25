@@ -1,0 +1,2 @@
+include ':HMTList'
+rootProject.name = "HMTList"
